@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+
+
+
+	form#enquiry {
+ 		position: relative;
+ 		top: 40px;
+ 		border-radius: 4px;
+ 		width: 650px;
+ 		height: 180px;
+		margin: 0 0
+	}
+
+	form#enquiry textarea {
+ 		border-radius: 10px;
+ 		box-shadow:  0px 2px 11px 0px rgba(0, 0, 0, 0.3);
+ 		border: 1px solid #e2e6e6;
+ 		margin: 0 0 10px 0;
+ 		font-family: 'Open Sans', sans-serif;
+ 		outline: none;
+ 		width: 650px;
+ 		height: 100px;
+ 		float: left;
+	}
+
+	form#enquiry span.counter {
+		float: right;
+ 		color: #f2f2f2;
+	}
+
+	form#enquiry p.info {
+ 		font-size: 11px;
+ 		color: #999;
+	}
+	form#enquiry p.info > span {
+ 		color: #fff; 
+	}
+
+	form#enquiry input[type=submit] {
+ 		cursor: pointer;
+ 		box-shadow:  0px 2px 11px 0px rgba(0, 0, 0, 0.3);
+ 		border: 1px solid #A8F1FF;
+ 		border-radius: 10px;
+ 		background-color:#0093B0;
+ 		color: #fff;
+ 		float: right;
+ 		padding: 10px;
+	}
+	table td{
+		padding: 0;
+	}
+	hr{
+		border-color: #F6F6F6;
+	}
+	span.count {
+		color: #B2EBF4;
+	}
+	article td.comm_id {
+	width: 100px;
+	text-align: left;
+	}
+	article td.comm_date {
+	width: 180px;
+	text-align: right;
+	}
+	article td.comm_comment {
+	width: 650px;
+	text-align: left;
+	padding: 5px 0 5px 0;
+	}
+	article td.comm_input {
+	width: 80px;
+	text-align: right;
+	}
+	.re_commbtn{
+		border: none;
+		background-color: #FFF;
+		
+	}
+	.re_commbtn:HOVER {
+		cursor: pointer;
+	}
+	td textarea {
+ 		border-radius: 10px;
+ 		box-shadow:  0px 2px 11px 0px rgba(0, 0, 0, 0.3);
+ 		border: 1px solid #e2e6e6;
+ 		margin: 0 0 10px 0;
+ 		font-family: 'Open Sans', sans-serif;
+ 		outline: none;
+ 		width: 630px;
+ 		height: 80px;
+ 		float: left;
+	}
+	span.re_comm_id{
+		color: #FFF;
+		background: #6799FF;
+		font-size: 20px;
+		
+	}
+	span.comm_id{
+		background: #A566FF;
+		color: #FFF;
+		font-size: 15px;
+	}
+	span.writer{
+		border: 1px solid #FFA7A7;
+		border-radius: 20px;
+		font-size: 10px;
+		color: #FFA7A7;
+	}
+	.updatebtn, .deletebtn{
+		border: none;
+		background-color: #FFF;
+	}
+	
+	.updatebtn, .deletebtn:HOVER{
+		cursor: pointer;
+	}
+	/* .coupdatetxt{
+		border-radius: 10px;
+ 		box-shadow:  0px 2px 11px 0px rgba(0, 0, 0, 0.3);
+ 		border: 1px solid #e2e6e6;
+ 		margin: 0 0 10px 0;
+ 		font-family: 'Open Sans', sans-serif;
+ 		outline: none;
+ 		width: 550px;
+ 		height: 80px;
+ 		float: right;
+	} */
+	
